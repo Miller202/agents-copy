@@ -1,0 +1,20 @@
+[tool.poetry]
+name = "agents-copy"
+version = "0.1.0"
+description = "agencia de copywriting"
+authors = ["Michael Miller <41575314+Miller202@users.noreply.github.com>"]
+readme = "README.md"
+
+[tool.poetry.dependencies]
+python = "^3.10"
+flask = "^3.0.2"
+python-dotenv = "^1.0.1"
+crewai = "^0.10.0"
+langchain = "0.1.0"
+langchain-community = "^0.0.19"
+duckduckgo-search = "^4.4.3"
+
+
+[build-system]
+requires = ["poetry-core"]
+build-backend = "poetry.core.masonry.api"
