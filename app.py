@@ -1,5 +1,5 @@
 from flask import Flask, request, jsonify
-from crewai_agents import get_crew
+from agents import get_crew
 from crewai import Task
 from langchain.agents import Tool
 from langchain_community.tools import DuckDuckGoSearchRun
